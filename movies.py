@@ -14,6 +14,3 @@ for s in search.results:
 data = list(search.results)
 with open('data.txt', 'w') as f:
   json.dump(data, f, ensure_ascii=False)
-
-  6467870157
-  174812
